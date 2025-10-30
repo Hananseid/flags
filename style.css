@@ -123,3 +123,33 @@
     background: white;
     position: absolute;
   }
+
+  .container2 {
+    height: 150px;
+    width: calc(150px * 8/5);
+    background: #0269A6;
+    margin: 70px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .yellow1 {
+    height: calc(150px * 1/5);
+    width: 100%;
+    background: #fecc00;
+    ;
+
+  }
+
+  .yellow2 {
+    height: calc(150px * 1/5);
+    width: 150px;
+    background: #fecc00;
+    position: absolute;
+    transform: rotate(90deg);
+    top: calc(150px * 4/10);
+    right: calc(calc(150px * 8/5) * 5/16);
+
+  }
