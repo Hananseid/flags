@@ -81,3 +81,45 @@
     background: rgb(17, 102, 17);
     grid-area: 2/2/3/4;
   }
+
+  .japan {
+    height: 200px;
+    width: calc(200px * 1.5);
+    background: white;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .japan>.red {
+    height: calc(200px * 3/5);
+    width: calc(200px * 3/5);
+    ;
+    border-radius: 50%;
+  }
+
+  .container1 {
+    height: 200px;
+    width: 200px;
+    background: red;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .white1 {
+    height: calc(200px * 3/16);
+    width: calc(200px * 5/8);
+    background: white;
+  }
+
+  .white2 {
+    height: calc(200px * 5/8);
+    width: calc(200px * 3/16);
+    background: white;
+    position: absolute;
+  }
